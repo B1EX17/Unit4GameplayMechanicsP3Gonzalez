@@ -23,5 +23,6 @@ public class Enemy : MonoBehaviour
             - transform.position).normalized;
 
         enemyRb.AddForce(lookDirection * speed);
+
     }
 }
